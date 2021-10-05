@@ -50,12 +50,17 @@ li {
   margin-bottom: 20px;
 }
 
+#city-input {
+  background: linear-gradient(135deg, #fbc6ff 20%, #bdfff9 90%);
+}
+
 /*#weather-description {
   text-transform: capitalize;
 }*/
 li::first-letter {
   text-transform: capitalize;
 }
+
 .weather-temperature img {
   margin-bottom: 32px;
   height: 64px;
