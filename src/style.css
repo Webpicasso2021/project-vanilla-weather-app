@@ -49,7 +49,10 @@ li {
 .overview {
   margin-bottom: 20px;
 }
-#weather-description {
+/*#weather-description {
+  text-transform: capitalize;
+}*/
+li::first-letter {
   text-transform: capitalize;
 }
 .weather-temperature img {
