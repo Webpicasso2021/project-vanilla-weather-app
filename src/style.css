@@ -1,11 +1,12 @@
 body {
-  background: linear-gradient(135deg, #fbc6ff 20%, #bdfff9 90%);
+  background: linear-gradient(220deg, #fbc6ff 60%, #bdfff9 30%);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: rgb(135, 135, 135);
-  font-size: 24px;
+  /*color: rgb(94, 92, 92);*/
+  color: #ef96f5;
+  font-size: 26px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -16,9 +17,13 @@ a {
 }
 a:hover {
   cursor: pointer;
-  color: rgb(240, 24, 240);
+  color: #ef51fa;
 }
-
+.news,
+.horoscope {
+  font-family: monospace;
+  color: #31c7ba;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -33,6 +38,9 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+small {
+  color: rgb(135, 135, 135);
 }
 .weather-app-wrapper {
   max-width: 600px;
