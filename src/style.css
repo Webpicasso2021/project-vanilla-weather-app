@@ -10,20 +10,24 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
 }
+
 a {
   text-decoration: none;
   color: #c699c9;
 }
+
 a:hover {
   cursor: pointer;
   color: #ef51fa;
 }
+
 .news,
 .horoscope,
 .weather-forecast {
   font-family: monospace;
   color: #31c7ba;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -39,9 +43,11 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
+
 small {
   color: rgb(135, 135, 135);
 }
+
 .weather-app-border {
   padding: 10px;
   border: 3px solid #bdfff9;
@@ -60,6 +66,7 @@ small {
   border-radius: 5px;
   background: white;
 }
+
 .weather-forecast {
   margin-top: 10px;
   padding: 20px;
@@ -68,12 +75,14 @@ small {
   background: white;
   text-align: center;
 }
+
 .overview {
   margin-bottom: 20px;
 }
 
 #city-input {
   background: linear-gradient(135deg, #fbc6ff 20%, #bdfff9 90%);
+  color: rgb(135, 135, 135);
 }
 
 li::first-letter {
@@ -95,24 +104,30 @@ li::first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  color: rgb(135, 135, 135);
+  font-size: 24px;
+  top: -28px;
 }
+
 .weather-temperature .active {
   color: rgb(135, 135, 135);
   cursor: default;
 }
+
 .weather-forecast-date {
   font-size: 16px;
   color: rgb(135, 135, 135);
 }
+
 .weather-forecast-temperature {
   font-size: 14px;
   color: rgb(107, 107, 107);
 }
+
 .forecast-max {
   background: rgb(253, 253, 170);
 }
+
 .forecast-min {
   opacity: 0.5;
 }
