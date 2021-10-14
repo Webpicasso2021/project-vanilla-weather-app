@@ -19,7 +19,8 @@ a:hover {
   color: #ef51fa;
 }
 .news,
-.horoscope {
+.horoscope,
+.weather-forecast {
   font-family: monospace;
   color: #31c7ba;
 }
@@ -41,6 +42,13 @@ li {
 small {
   color: rgb(135, 135, 135);
 }
+.weather-app-border {
+  padding: 10px;
+  border: 3px solid #bdfff9;
+  border-radius: 5px;
+  background: white;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -48,16 +56,17 @@ small {
 
 .weather-app {
   padding: 20px;
-  border: 3px solid #c699c9;
+  border: 1.5px solid rgb(135, 135, 135);
   border-radius: 5px;
   background: white;
 }
 .weather-forecast {
   margin-top: 10px;
   padding: 20px;
-  border: 3px solid #c699c9;
+  border: 1.5px solid rgb(135, 135, 135);
   border-radius: 5px;
   background: white;
+  text-align: center;
 }
 .overview {
   margin-bottom: 20px;
@@ -95,12 +104,15 @@ li::first-letter {
 }
 .weather-forecast-date {
   font-size: 16px;
-  color: #c281c7;
+  color: rgb(135, 135, 135);
 }
 .weather-forecast-temperature {
   font-size: 14px;
   color: rgb(107, 107, 107);
 }
+.forecast-max {
+  background: rgb(253, 253, 170);
+}
 .forecast-min {
-  opacity: 0.4;
+  opacity: 0.5;
 }
